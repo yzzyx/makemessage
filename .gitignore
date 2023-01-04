@@ -1,0 +1,6 @@
+makemessage
+.idea
+*.tmp
+*~
+*.po
+*.mo

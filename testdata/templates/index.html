@@ -1,0 +1,13 @@
+{% trans "String from trans" %}
+{% trans "String from trans to var" as myvar %}
+{% trans "String from trans with context" context "testctx" %}
+
+{% blocktrans %}
+String from blocktrans
+{% endblocktrans %}
+
+{% blocktrans %}
+String from blocktrans with plural
+{% plural %}
+Plural for blocktrans
+{% endblocktrans %}
